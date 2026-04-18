@@ -11,7 +11,7 @@ function add(input1, input2){
 // const result = add(10, 20);
 // console.log(result);
 
-var target = ["love", "second", "brakeup", "sad", "cry", "nothing"]
+var target = ["love", "second", "brakeup", "sad", "cry", "another"]
 
 let wrd = "the word is sentence is  , , sdfj love sdfkj sdfj brakeup sdfsdf sdf er"
 
