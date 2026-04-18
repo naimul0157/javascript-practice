@@ -11,9 +11,9 @@ function add(input1, input2){
 // const result = add(10, 20);
 // console.log(result);
 
-var target = ["sex", "fuck", "bainchud", "mother fucker", "shala", "kankir_pola"]
+var target = ["love", "second", "brakeup", "sad", "cry", "nothing"]
 
-let wrd = "the word is sentence is  , , sdfj fuck sdfkj sdfj fuck sdfsdf sdf er bainchud shala kankir_pola shala "
+let wrd = "the word is sentence is  , , sdfj love sdfkj sdfj brakeup sdfsdf sdf er"
 
 let finalResult = "the word is sentence is , shala sdfj sdfkj sdfj sdfsdf sdf er "
 // let final=[];
