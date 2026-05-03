@@ -1,6 +1,7 @@
 function add (num1, num2){
     return num1+num2;
 }
+
 function substraction(num1, num2){
     return num1 - num2;
 }
@@ -17,17 +18,20 @@ function calculaor(a, b, operation){
         return result;
     }
     else if(operation == 'subtraction'){
-        const result = substraction(a, b);
-        return result;
+        return substraction(a, b);
     }
     else if(operation == 'multiplication'){
-        const result = multiply(a, b);
-        return result;
+
+        return multiply(a, b);
+    }
+    else if(operation == 'divide'){
+        return divided(a, b);
     }
     else{
-        const result = divided(a, b);
-        return result;
+        return 'only add, multiply, substraction & divided are allowed'
     }
+
 }
 
 console.log(calculaor(20, 30, 'multiplication'));
+
